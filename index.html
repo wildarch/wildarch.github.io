@@ -5,54 +5,39 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 
     <title>Wildarch</title>
     <meta name="description" content="homepage of wildarch">
     <meta name="keywords" content="wildarch, developer">
     <meta name="author" content="Daan de Graaf">
-
-    <!-- TODO: Favicon -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /*
-        --bdazzled-blue: #3d5a80ff;
-        --pale-cerulean: #98c1d9ff;
-        --light-cyan: #e0fbfcff;
-        --burnt-sienna: #ee6c4dff;
-        --gunmetal: #293241ff;
-        */
-
-        body {
-            background-color: #293241ff;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        h1 {
-            color: #98c1d9ff;
-        }
-
-        p,
-        a {
-            color: #e0fbfcff;
-        }
-
-        a:visited {
-            color: #98c1d9ff;
-        }
-    </style>
 </head>
 
 <body>
-    <h1><span>Wildarch</span></h1>
-    <p>Master's student Computer Engineering at TU Delft.</p>
-    <p><a href="https://github.com/wildarch">My GitHub</a>.</p>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="https://github.com/wildarch">My GitHub</a>
+        </nav>
+        <h1><span>Wildarch</span></h1>
+        <p>Master's student Computer Engineering at TU Delft.</p>
+    </header>
 
-    <p>p.s.</p>
-    <iframe src="https://giphy.com/embed/AM7BZMu5pol1qnJesO" width="480" height="270" frameBorder="0"
-        class="giphy-embed" allowFullScreen></iframe>
+    <main>
+        <figure>
+            <img src="hello.gif" />
+            <figcaption>Welcome!</figcaption>
+        </figure>
+
+        <h2>Blog posts</h2>
+        <div>
+            <h3>Precedence climbing in pest</h2>
+                <i>April 9, 2022</i>
+                <p>A <a href="https://github.com/wildarch/pest-calculator/blob/main/docs/Tutorial.md">tutorial</a> on
+                    how to
+                    use <code>PrecClimber</code> in <a href="https://pest.rs">pest</a>, a PEG parser for Rust.</p>
+        </div>
+    </main>
 </body>
 
 </html>
