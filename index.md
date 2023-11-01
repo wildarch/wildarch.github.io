@@ -5,6 +5,10 @@
 layout: home
 ---
 
+<p>
+<img src="profile.jpg" width="200px" style="display:block; margin-left:auto; margin-right: auto; border-radius: 50%"/>
+</p>
+
 I am a PhD Candidate at [Eindhoven University of Technology](https://research.tue.nl/en/persons/daan-de-graaf).
 I work on support for user-defined graph algorithms in the [AvantGraph](https://avantgraph.io) database.
 
@@ -26,8 +30,7 @@ I work on support for user-defined graph algorithms in the [AvantGraph](https://
   [Klaus von Gleissenthall](https://dblp.org/pid/86/10265.html) and 
   [Burcu Kulahcioglu Ozkan](https://burcuku.github.io/home/)
   has been accepted for [OOPSLA 2023](ttps://2023.splashcon.org/track/splash-2023-oopsla)!
+- *Apr'2022* Our blog post [Testing consistency of rqlite](https://github.com/wildarch/jepsen.rqlite/blob/main/doc/blog.md) with Nienke Eijsvogel and Ruben van Baarle was featured on the frontpage of [Hacker News](https://news.ycombinator.com/item?id=31089363).
 
-<!-- TODO: profile picture -->
 <!-- TODO: CV -->
-<!-- TODO: jepsen blog on HN -->
 <!-- TODO: previous work -->
