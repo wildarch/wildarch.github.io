@@ -33,4 +33,5 @@ I work on support for user-defined graph algorithms in the [AvantGraph](https://
 - *Apr'2022* Our blog post [Testing consistency of rqlite](https://github.com/wildarch/jepsen.rqlite/blob/main/doc/blog.md) with Nienke Eijsvogel and Ruben van Baarle was featured on the frontpage of [Hacker News](https://news.ycombinator.com/item?id=31089363).
 
 <!-- TODO: CV -->
+<!-- TODO: socials -->
 <!-- TODO: previous work -->
