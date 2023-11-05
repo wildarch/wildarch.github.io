@@ -32,3 +32,15 @@ body>header {
 #about-me-text-container {
     max-width: 400px;
 }
+
+/* For news table */
+#news-table {
+    /* Background colors for entries alternates. 
+       Make sure it stretches to the full page width. */
+    width: 100%;
+}
+
+#news-table>tbody>tr>td {
+    /* Hide borders around cells. */
+    border: 0;
+}

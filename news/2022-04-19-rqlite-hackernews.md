@@ -1,0 +1,2 @@
+Our blog post [Testing consistency of rqlite](https://github.com/wildarch/jepsen.rqlite/blob/main/doc/blog.md) 
+with Nienke Eijsvogel and Ruben van Baarle was featured on the frontpage of [Hacker News](https://news.ycombinator.com/item?id=31089363).

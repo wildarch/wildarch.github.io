@@ -7,13 +7,14 @@
     <title>{{.Title}}</title>
     <link rel="stylesheet" href="simple.min.css">
     <link rel="stylesheet" href="index.css">
+    <!-- TODO: meta -->
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><strong><a href="/">{{.Name}}</a></strong></li>
+                <li><a class="current" href="/">{{.Name}}</a></li>
                 <li><a href="/publications">Publications</a></li>
                 <li><a href="/cv">CV</a></li>
             </ul>
@@ -21,18 +22,31 @@
     </header>
     <main>
         <section>
-            <h1>About Me</h1>
+            <h1>{{.Name}}</h1>
             <div class="flex-container">
                 <div class="flex-element" id="profile-container">
                     <img id="profile" src="profile.jpg" />
                 </div>
                 <div class="flex-element" id="about-me-text-container">
-                    <!-- TODO about me text -->
                     {{.AboutMe}}
 
                     <!-- TODO platforms links -->
                 </div>
             </div>
+        </section>
+
+        <section>
+            <h1>News</h1>
+            <table id="news-table">
+                <tbody>
+                    {{range .News}}
+                    <tr>
+                        <td>{{.Date}}</td>
+                        <td>{{.Content}}</td>
+                    </tr>
+                    {{end}}
+                </tbody>
+            </table>
         </section>
     </main>
 </body>

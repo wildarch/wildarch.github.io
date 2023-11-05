@@ -1,0 +1,2 @@
+Our paper [Randomized Testing of Byzantine Fault Tolerant Algorithms](https://dl.acm.org/doi/10.1145/3586053) 
+was recognized with an **ACM SIGPLAN Distinguished Paper award** at [OOPSLA 2023](https://2023.splashcon.org/track/splash-2023-oopsla).

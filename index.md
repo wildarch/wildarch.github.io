@@ -14,7 +14,7 @@ I work on support for user-defined graph algorithms in the [AvantGraph](https://
 
 ## News 
 - *Oct'2023* Our paper [Randomized Testing of Byzantine Fault Tolerant Algorithms](https://dl.acm.org/doi/10.1145/3586053) 
-  was recognized with an **ACM SIGPLAN Distinguished Paper award** at [OOPSLA 2023](ttps://2023.splashcon.org/track/splash-2023-oopsla).
+  was recognized with an **ACM SIGPLAN Distinguished Paper award** at [OOPSLA 2023](https://2023.splashcon.org/track/splash-2023-oopsla).
 - *Oct'2023* We shipped the first publicly available preview of AvantGraph. 
   It is published as a docker container on our GitHub Container Registry.
   [Get started here](https://github.com/avantlab/avantgraph).
