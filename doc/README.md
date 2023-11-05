@@ -67,6 +67,7 @@ See also:
 
 ```html
 <!-- Standard metadata -->
+<title>{title}</title>
 <meta name="keywords" content="<keyword 1>, <keyword 2>">
 <meta name="description" content="<description>">
 <meta name="author" content="<name>">
@@ -116,6 +117,10 @@ The two big ones appear to be:
 - https://github.com/yuin/goldmark
 
 `goldmark` looks more active, so I'll try that first.
+
+### 404 Page Not Found Handler
+See https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site.
+
 
 ## Testing
 At a minimum, I want a dead-link checker.
