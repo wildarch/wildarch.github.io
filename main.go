@@ -162,7 +162,7 @@ func main() {
 	}
 	sortNewToOld(config.News)
 
-	out, err := os.Create("out.html")
+	out, err := os.Create("index.html")
 	if err != nil {
 		log.Fatalf("failed to create out.html: %v", err)
 	}

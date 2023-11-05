@@ -4,90 +4,97 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Daan de Graaf | PhD Candidate at TU/e Database Group.</title>
-    <meta property="og:title" content="Daan de Graaf" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="description"
-        content="PhD Candidate at TU/e Database Group. I am interested in databases and compilers. I like building systems where performance is critical, and that are close to the metal." />
-    <meta property="og:description"
-        content="PhD Candidate at TU/e Database Group. I am interested in databases and compilers. I like building systems where performance is critical, and that are close to the metal." />
-    <link rel="canonical" href="https://wildarch.dev/" />
-    <meta property="og:url" content="https://wildarch.dev/" />
-    <meta property="og:site_name" content="Daan de Graaf" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Daan de Graaf" />
-    <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"PhD Candidate at TU/e Database Group. I am interested in databases and compilers. I like building systems where performance is critical, and that are close to the metal.","headline":"Daan de Graaf","name":"Daan de Graaf","url":"https://wildarch.dev/"}</script>
+    <title>Daan de Graaf. PhD Candidate in Graph Databases at TU/e</title>
+    <link rel="stylesheet" href="assets/simple.min.css">
     <link rel="stylesheet" href="index.css">
+    
 </head>
 
 <body>
     <header>
-        <!-- TODO: styling the nav bar -->
         <nav>
             <ul>
-                <li><a href="/">Daan de Graaf</a></li>
-                <li><a href="/pubs">Publications</a></li>
+                <li><a class="current" href="/">Daan de Graaf</a></li>
+                <li><a href="/publications">Publications</a></li>
                 <li><a href="/cv">CV</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h1>About Me</h1>
+            <h1>Daan de Graaf</h1>
             <div class="flex-container">
                 <div class="flex-element" id="profile-container">
-                    <img id="profile" src="profile.jpg" />
+                    <img id="profile" src="assets/profile.jpg" />
                 </div>
                 <div class="flex-element" id="about-me-text-container">
-                    <p>
-                        I am a PhD Candidate at <a href="https://research.tue.nl/en/persons/daan-de-graaf">Eindhoven
-                            University
-                            of Technology</a>.
-                        I work on support for user-defined graph algorithms in the <a
-                            href="https://avantgraph.io">AvantGraph</a> database.
-                    </p>
+                    <p>I am a PhD Candidate at <a href="https://research.tue.nl/en/persons/daan-de-graaf">Eindhoven University of Technology</a>.
+I work on support for user-defined graph algorithms in the <a href="https://avantgraph.io">AvantGraph</a> database.</p>
+<p>I am interested in databases and compilers.
+I like building systems where performance is critical and that are close to the metal.</p>
 
-                    <p>
-                        TODO: links to platforms (email, GitHub, LinkedIn, Google Scholar, Orcid)
-                    </p>
+
+                    
                 </div>
             </div>
         </section>
 
         <section>
             <h1>News</h1>
-            <ul>
-                <li><em>Oct’2023</em> Our paper <a href="https://dl.acm.org/doi/10.1145/3586053">Randomized Testing of
-                        Byzantine Fault Tolerant Algorithms</a>
-                    was recognized with an <strong>ACM SIGPLAN Distinguished Paper award</strong> at <a
-                        href="ttps://2023.splashcon.org/track/splash-2023-oopsla">OOPSLA 2023</a>.</li>
-                <li><em>Oct’2023</em> We shipped the first publicly available preview of AvantGraph.
-                    It is published as a docker container on our GitHub Container Registry.
-                    <a href="https://github.com/avantlab/avantgraph">Get started here</a>.
-                </li>
-                <li><em>Sep’2023</em> I have started my work as a doctoral candidate at the TU/e Database group.
-                    I will continue my work on the graphalg language for high-performance algorithm support.</li>
-                <li><em>Aug’2023</em> I defended my MSc thesis
-                    <a href="http://resolver.tudelft.nl/uuid:1b5f0236-87f2-41f0-8af8-0911cb3b4d54">Efficient Execution
-                        of User-Provided Graph Algorithms in a Graph Database</a>,
-                    and was awarded the <strong>Cum Laude</strong> distinction.
-                </li>
-                <li><em>Feb’2023</em> Our paper
-                    <a href="https://dl.acm.org/doi/10.1145/3586053">Randomized Testing of Byzantine Fault Tolerant
-                        Algorithms</a>
-                    with <a href="https://dblp.org/pid/346/8791.html">Levin N. Winter</a>,
-                    <a href="https://dblp.org/pid/346/7638.html">Florena Buse</a>,
-                    <a href="https://dblp.org/pid/86/10265.html">Klaus von Gleissenthall</a> and
-                    <a href="https://burcuku.github.io/home/">Burcu Kulahcioglu Ozkan</a>
-                    has been accepted for <a href="ttps://2023.splashcon.org/track/splash-2023-oopsla">OOPSLA 2023</a>!
-                </li>
-                <li><em>Apr’2022</em> Our blog post <a
-                        href="https://github.com/wildarch/jepsen.rqlite/blob/main/doc/blog.md">Testing consistency of
-                        rqlite</a> with Nienke Eijsvogel and Ruben van Baarle was featured on the frontpage of <a
-                        href="https://news.ycombinator.com/item?id=31089363">Hacker News</a>.</li>
-            </ul>
+            <table id="news-table">
+                <tbody>
+                    
+                    <tr>
+                        <td>Nov&#39;23</td>
+                        <td><p>Our paper <a href="https://dl.acm.org/doi/10.1145/3586053">Randomized Testing of Byzantine Fault Tolerant Algorithms</a>
+was recognized with an <strong>ACM SIGPLAN Distinguished Paper award</strong> at <a href="https://2023.splashcon.org/track/splash-2023-oopsla">OOPSLA 2023</a>.</p>
+</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Nov&#39;23</td>
+                        <td><p>We shipped the first publicly available preview of AvantGraph.
+It is published as a docker container on our GitHub Container Registry.
+<a href="https://github.com/avantlab/avantgraph">Get started here</a>.</p>
+</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Oct&#39;23</td>
+                        <td><p>I have started my work as a doctoral candidate at the TU/e Database group.
+I will continue my work on the graphalg language for high-performance algorithm support.</p>
+</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Sep&#39;23</td>
+                        <td><p>I defended my MSc thesis
+<a href="http://resolver.tudelft.nl/uuid:1b5f0236-87f2-41f0-8af8-0911cb3b4d54">Efficient Execution of User-Provided Graph Algorithms in a Graph Database</a>,
+and was awarded the <strong>Cum Laude</strong> distinction.</p>
+</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mar&#39;23</td>
+                        <td><p>Our paper
+<a href="https://dl.acm.org/doi/10.1145/3586053">Randomized Testing of Byzantine Fault Tolerant Algorithms</a>
+with <a href="https://dblp.org/pid/346/8791.html">Levin N. Winter</a>,
+<a href="https://dblp.org/pid/346/7638.html">Florena Buse</a>,
+<a href="https://dblp.org/pid/86/10265.html">Klaus von Gleissenthall</a> and
+<a href="https://burcuku.github.io/home/">Burcu Kulahcioglu Ozkan</a>
+has been accepted for <a href="ttps://2023.splashcon.org/track/splash-2023-oopsla">OOPSLA 2023</a>!</p>
+</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>May&#39;22</td>
+                        <td><p>Our blog post <a href="https://github.com/wildarch/jepsen.rqlite/blob/main/doc/blog.md">Testing consistency of rqlite</a>
+with Nienke Eijsvogel and Ruben van Baarle was featured on the frontpage of <a href="https://news.ycombinator.com/item?id=31089363">Hacker News</a>.</p>
+</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
         </section>
     </main>
 </body>
