@@ -108,7 +108,7 @@ func renderNewsItemFromFile(path string) (*NewsItem, error) {
 		Year:    year,
 		Month:   month,
 		Day:     day,
-		Date:    fmt.Sprintf("%s'%d", monthNames[month], year-2000),
+		Date:    fmt.Sprintf("%s'%d", monthNames[month-1], year-2000),
 		Content: template.HTML(html),
 	}, nil
 }
