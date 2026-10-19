@@ -38,7 +38,7 @@
 
         <section>
             <h1>News</h1>
-            <table id="news-table">
+            <table id="news-table" class="news-table">
                 <tbody>
                     {{range .News}}
                     <tr>
@@ -48,6 +48,21 @@
                     {{end}}
                 </tbody>
             </table>
+            {{range .OlderNews}}
+            <details>
+                <summary>{{.Year}}</summary>
+                <table class="news-table">
+                    <tbody>
+                        {{range .Items}}
+                        <tr>
+                            <td>{{.Date}}</td>
+                            <td>{{.Content}}</td>
+                        </tr>
+                        {{end}}
+                    </tbody>
+                </table>
+            </details>
+            {{end}}
         </section>
     </main>
 </body>

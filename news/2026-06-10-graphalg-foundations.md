@@ -1,0 +1,1 @@
+Our paper *Foundations of the GraphAlg Language* with [Robert Brijder](https://rbrijder.win.tue.nl) and [Nikolay Yakovets](https://yakovets.ca) on the connection between MATLANG and GraphAlg is now available on [ArXiv](https://arxiv.org/abs/2604.11454).

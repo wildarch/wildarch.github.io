@@ -1,0 +1,2 @@
+I attended the VLDB Summer School in Cluj Napoca, Romania.
+Thanks to the organisers [Stefania Dumbrava](https://web4.ensiie.fr/~stefania.dumbrava/), [Anca Hangan](https://users.utcluj.ro/~ancapop/) and [Zsolt István](https://zistvan.github.io/), the many great speakers and other attendees for a wonderful event. 

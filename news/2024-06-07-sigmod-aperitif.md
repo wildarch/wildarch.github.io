@@ -1,0 +1,1 @@
+I presented the GraphAlg Language, a domain-specific language for graph algorithms, at the SIGMOD/PODS 2024 Apéritif at the *Millennium Institute for Foundational Research on Data*.

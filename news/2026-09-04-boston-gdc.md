@@ -1,0 +1,1 @@
+I presented my ongoing work on a highly expressive and efficient loop construct for SQL at the [Twenty-First TUC Meeting](https://ldbcouncil.org/event/twenty-first-tuc-meeting) of the Graph Data Council in Boston, MA. Slides of the talk are [available](https://datasets.ldbcouncil.org/event/twenty-first-tuc-meeting/daan-de-graaf-running-loops-around-recursive-sql.pdf).

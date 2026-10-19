@@ -1,0 +1,1 @@
+Our paper *Algorithm Support for Graph Databases, Done Right* with [Robert Brijder](https://rbrijder.win.tue.nl), [Soham Chakraborty](https://www.st.ewi.tudelft.nl/sschakraborty), [George Fletcher](https://gfletche.win.tue.nl), Bram van de Wall and [Nikolay Yakovets](https://yakovets.ca) has been accepted for [SIGMOD 2027](https://2027.sigmod.org/sigmod_papers.shtml)!

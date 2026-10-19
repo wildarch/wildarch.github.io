@@ -27,12 +27,18 @@ type NewsItem struct {
 	Content template.HTML
 }
 
+type NewsYear struct {
+	Year  int
+	Items []NewsItem
+}
+
 type Config struct {
 	Title       string
 	Name        string
 	Description ConfigDescription
 	AboutMe     template.HTML
 	News        []NewsItem
+	OlderNews   []NewsYear
 }
 
 func renderMarkdownFile(path string) (string, error) {
@@ -161,6 +167,22 @@ func main() {
 		config.News = append(config.News, *item)
 	}
 	sortNewToOld(config.News)
+
+	// Show only the news from the most recent year directly, and group the
+	// rest by year.
+	recentCount := 0
+	for recentCount < len(config.News) && config.News[recentCount].Year == config.News[0].Year {
+		recentCount++
+	}
+	for _, item := range config.News[recentCount:] {
+		last := len(config.OlderNews) - 1
+		if last < 0 || config.OlderNews[last].Year != item.Year {
+			config.OlderNews = append(config.OlderNews, NewsYear{Year: item.Year})
+			last++
+		}
+		config.OlderNews[last].Items = append(config.OlderNews[last].Items, item)
+	}
+	config.News = config.News[:recentCount]
 
 	out, err := os.Create("index.html")
 	if err != nil {

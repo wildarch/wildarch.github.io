@@ -1,0 +1,2 @@
+I presented my ongoing work for the [PhD Workshop at VLDB 2025](https://vldb.org/2025/?program-schedule-phd-workshop) in London.
+Thank you to the reviewers and audience who provided valuable feedback to my PhD plan.

@@ -1,0 +1,1 @@
+I presented our vision [Graph Algorithms for Everyone, Everywhere](https://dbdbd2025.uantwerpen.be/wp-content/uploads/2025/12/dbdbd25_14.pdf) at the Dutch-Belgian Database Day in Antwerp.

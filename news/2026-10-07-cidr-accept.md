@@ -1,0 +1,1 @@
+Our paper *Running Loops around Recursive SQL* with [Altan Birler](https://db.in.tum.de/people/sites/birler/index.shtml?lang=en), [Nikolay Yakovets](https://yakovets.ca) and [Thomas Neumann](https://db.in.tum.de/people/sites/neumann/?lang=en) has been accepted for [CIDR 2027](https://www.cidrdb.org/cidr2027/papers.html)!
