@@ -15,8 +15,8 @@
         <nav>
             <ul>
                 <li><a class="current" href="/">{{.Name}}</a></li>
-                <!-- TODO: better links -->
-                <li><a href="https://scholar.google.com/citations?user=11bAGfEAAAAJ">Publications</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="assets/cv.pdf">CV</a></li>
             </ul>
         </nav>
@@ -31,12 +31,16 @@
                 <div class="flex-element" id="about-me-text-container">
                     {{.AboutMe}}
 
-                    <!-- TODO platforms links -->
+                    <ul class="platform-links">
+                        {{range .Links}}
+                        <li><a href="{{.URL}}">{{.Name}}</a></li>
+                        {{end}}
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section id="news">
             <h2>News</h2>
             <table id="news-table" class="news-table">
                 <tbody>
@@ -65,7 +69,7 @@
             {{end}}
         </section>
 
-        <section>
+        <section id="publications">
             <h2>Selected Publications</h2>
             <table id="pubs-table" class="pubs-table">
                 <tbody>

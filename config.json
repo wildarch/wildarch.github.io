@@ -3,5 +3,11 @@
     "Name": "Daan de Graaf",
     "Description": {
         "OneLine": "PhD Candidate in Graph Databases at TU/e"
-    }
+    },
+    "Links": [
+        { "Name": "GitHub", "URL": "https://github.com/wildarch" },
+        { "Name": "LinkedIn", "URL": "https://www.linkedin.com/in/daan-de-graaf/" },
+        { "Name": "ORCID", "URL": "https://orcid.org/0009-0000-0322-1149" },
+        { "Name": "Google Scholar", "URL": "https://scholar.google.com/citations?user=11bAGfEAAAAJ" }
+    ]
 }

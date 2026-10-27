@@ -47,10 +47,16 @@ type PubItem struct {
 	Authors   []Author `json:"-"`
 }
 
+type ConfigLink struct {
+	Name string
+	URL  string
+}
+
 type Config struct {
 	Title        string
 	Name         string
 	Description  ConfigDescription
+	Links        []ConfigLink
 	AboutMe      template.HTML
 	News         []NewsItem
 	OlderNews    []NewsYear

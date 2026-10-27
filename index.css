@@ -33,6 +33,16 @@ body>header {
     max-width: 400px;
 }
 
+/* Platform links below the about me text */
+.platform-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    font-size: 0.85rem;
+}
+
 /* For news table */
 .news-table {
     /* Background colors for entries alternates. 
