@@ -32,13 +32,29 @@ type NewsYear struct {
 	Items []NewsItem
 }
 
+type Author struct {
+	Name    string
+	Website string
+	IsMe    bool
+}
+
+type PubItem struct {
+	Venue     string
+	Title     string
+	URL       string
+	Note      string
+	AuthorIDs []string `json:"Authors"`
+	Authors   []Author `json:"-"`
+}
+
 type Config struct {
-	Title       string
-	Name        string
-	Description ConfigDescription
-	AboutMe     template.HTML
-	News        []NewsItem
-	OlderNews   []NewsYear
+	Title        string
+	Name         string
+	Description  ConfigDescription
+	AboutMe      template.HTML
+	News         []NewsItem
+	OlderNews    []NewsYear
+	Publications []PubItem
 }
 
 func renderMarkdownFile(path string) (string, error) {
@@ -139,6 +155,44 @@ func sortNewToOld(news []NewsItem) {
 	})
 }
 
+func parsePublications() []PubItem {
+	authorsText, err := os.ReadFile("publications/authors.json")
+	if err != nil {
+		log.Fatalf("failed to read publications/authors.json: %v", err)
+	}
+
+	var authors map[string]Author
+	err = json.Unmarshal(authorsText, &authors)
+	if err != nil {
+		log.Fatalf("failed to parse publications/authors.json: %v", err)
+	}
+
+	pubsText, err := os.ReadFile("publications/publications.json")
+	if err != nil {
+		log.Fatalf("failed to read publications/publications.json: %v", err)
+	}
+
+	var pubs []PubItem
+	err = json.Unmarshal(pubsText, &pubs)
+	if err != nil {
+		log.Fatalf("failed to parse publications/publications.json: %v", err)
+	}
+
+	// Resolve author IDs to their full details.
+	for i := range pubs {
+		for _, id := range pubs[i].AuthorIDs {
+			author, ok := authors[id]
+			if !ok {
+				log.Fatalf("unknown author '%s' in publication '%s'", id, pubs[i].Title)
+			}
+			author.IsMe = id == "me"
+			pubs[i].Authors = append(pubs[i].Authors, author)
+		}
+	}
+
+	return pubs
+}
+
 func main() {
 	tmpl, err := template.ParseFiles("index.template.html")
 	if err != nil {
@@ -183,6 +237,8 @@ func main() {
 		config.OlderNews[last].Items = append(config.OlderNews[last].Items, item)
 	}
 	config.News = config.News[:recentCount]
+
+	config.Publications = parsePublications()
 
 	out, err := os.Create("index.html")
 	if err != nil {

@@ -1,0 +1,41 @@
+[
+    {
+        "Venue": "CIDR 2027",
+        "Title": "Running Loops around Recursive SQL",
+        "Authors": ["me", "abirler", "nyakovets", "tneumann"],
+        "Note": "to appear"
+    },
+    {
+        "Venue": "SIGMOD 2027",
+        "Title": "Algorithm Support for Graph Databases, Done Right",
+        "Authors": ["me", "rbrijder", "schakraborty", "gfletcher", "bwall", "nyakovets"],
+        "Note": "to appear"
+    },
+    {
+        "Venue": "ArXiv 2026",
+        "Title": "Foundations of the GraphAlg Language",
+        "URL": "https://arxiv.org/abs/2604.11454",
+        "Authors": ["me", "rbrijder", "nyakovets"]
+    },
+    {
+        "Venue": "VLDB 2026",
+        "Title": "GraphAlg Playground: An Online Platform for Learning and Experimenting with the GraphAlg Language",
+        "URL": "https://dl.acm.org/doi/10.14778/3827998.3828062",
+        "Authors": ["me", "rbrijder", "schakraborty", "gfletcher", "bwall", "nyakovets"],
+        "Note": "demonstration"
+    },
+    {
+        "Venue": "MSc Thesis 2023",
+        "Title": "Efficient Execution of User-Provided Graph Algorithms in a Graph Database",
+        "URL": "http://resolver.tudelft.nl/uuid:1b5f0236-87f2-41f0-8af8-0911cb3b4d54",
+        "Authors": ["me"],
+        "Note": "Cum Laude"
+    },
+    {
+        "Venue": "OOPSLA 2023",
+        "Title": "Randomized Testing of Byzantine Fault Tolerant Algorithms",
+        "URL": "https://dl.acm.org/doi/10.1145/3586053",
+        "Authors": ["lwinter", "fbuse", "me", "kgleissenthall", "bozkan"],
+        "Note": "ACM SIGPLAN Distinguished Paper award"
+    }
+]

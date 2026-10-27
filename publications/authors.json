@@ -1,0 +1,53 @@
+{
+    "me": {
+        "Name": "Daan de Graaf",
+        "Website": "https://wildarch.dev"
+    },
+    "lwinter": {
+        "Name": "Levin N. Winter",
+        "Website": "https://dblp.org/pid/346/8791.html"
+    },
+    "fbuse": {
+        "Name": "Florena Buse",
+        "Website": "https://dblp.org/pid/346/7638.html"
+    },
+    "kgleissenthall": {
+        "Name": "Klaus von Gleissenthall",
+        "Website": "https://dblp.org/pid/86/10265.html"
+    },
+    "bozkan": {
+        "Name": "Burcu Kulahcioglu Ozkan",
+        "Website": "https://burcuku.github.io/home/"
+    },
+    "wleeuwen": {
+        "Name": "Wilco van Leeuwen",
+        "Website": "https://research.tue.nl/nl/persons/wilco-van-leeuwen/"
+    },
+    "gfletcher": {
+        "Name": "George Fletcher",
+        "Website": "https://gfletche.win.tue.nl"
+    },
+    "nyakovets": {
+        "Name": "Nikolay Yakovets",
+        "Website": "https://yakovets.ca"
+    },
+    "rbrijder": {
+        "Name": "Robert Brijder",
+        "Website": "https://rbrijder.win.tue.nl"
+    },
+    "schakraborty": {
+        "Name": "Soham Chakraborty",
+        "Website": "https://www.st.ewi.tudelft.nl/sschakraborty"
+    },
+    "bwall": {
+        "Name": "Bram van de Wall"
+    },
+    "abirler": {
+        "Name": "Altan Birler",
+        "Website": "https://db.in.tum.de/people/sites/birler/index.shtml?lang=en"
+    },
+    "tneumann": {
+        "Name": "Thomas Neumann",
+        "Website": "https://db.in.tum.de/people/sites/neumann/?lang=en"
+    }
+}

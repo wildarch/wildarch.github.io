@@ -44,3 +44,15 @@ body>header {
     /* Hide borders around cells. */
     border: 0;
 }
+
+/* For pubs table */
+.pubs-table {
+    /* Background colors for entries alternates. 
+       Make sure it stretches to the full page width. */
+    width: 100%;
+}
+
+.pubs-table>tbody>tr>td {
+    /* Hide borders around cells. */
+    border: 0;
+}
